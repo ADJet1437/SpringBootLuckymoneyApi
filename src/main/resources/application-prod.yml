@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+limit:
+  minMoney: 1
+  maxMoney: 100
+  description: Money range limitation. Max ${limit.maxMoney}, Min ${limit.minMoney}
